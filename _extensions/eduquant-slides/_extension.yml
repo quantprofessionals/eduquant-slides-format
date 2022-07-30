@@ -1,0 +1,14 @@
+title: Eduquant Slides
+author: eduquant
+version: 0.0.1
+contributes:
+  formats:
+    revealjs:
+       theme: [default, theme.scss]
+       logo: logo.png
+       footer: | 
+         Copyright 2022 (c) Pieter van den Berg
+       title-slide-attributes:
+          data-background-image: title.svg
+          data-background-size: contain
+       preview-links: auto

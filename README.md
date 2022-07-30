@@ -1,0 +1,1 @@
+This repository contains a quarto extension with a simple eduquant themed reveal js slide format and template.
