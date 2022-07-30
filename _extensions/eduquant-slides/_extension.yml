@@ -9,6 +9,6 @@ contributes:
        footer: | 
          Copyright 2022 (c) Pieter van den Berg
        title-slide-attributes:
-          data-background-image: title.svg
+          # data-background-image: title.svg
           data-background-size: contain
        preview-links: auto
