@@ -4,11 +4,14 @@ version: 0.0.1
 contributes:
   formats:
     revealjs:
-       theme: [default, theme.scss]
-       logo: logo.png
-       footer: | 
-         Copyright 2022 (c) Pieter van den Berg
+       theme: [default, theme.scss] 
+       transition: slide
+       transition-speed: fast
+       logo: logo_transparent.svg
+       footer:
        title-slide-attributes:
-          # data-background-image: title.svg
-          data-background-size: contain
-       preview-links: auto
+          data-background-color: lightblue
+          data-background-position: bottom 2.5em center
+          data-background-image: logo_transparent.svg
+          data-background-size: 33%
+       preview-links: true

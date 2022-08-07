@@ -1,16 +1,24 @@
 /*-- scss:defaults --*/
 
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Hind+Madurai:700,600,500,400);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic);
 
-// fonts
-$font-family-sans-serif: Lato, sans-serif !default;
 
-// colors
-$body-bg: #fff !default;
-$body-color: #000 !default;
-$link-color: #00008b !default;
-$selection-bg: rgba(0, 0, 0, 0.99);
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: rgb(249, 249, 236);
+// $mainColor: rgb(12, 33, 49) !default;
+$mainFont: 'Raleway', sans-serif;
+$linkColor: #4b5be8;
+$linkColorHover: lighten( $linkColor, 20% );
+$headingFont: 'Hind Madurai', sans-serif;
+$headingColor: rgb(9, 33, 52);
+$headingTextShadow: none;
+$headingLetterSpacing: -0.0em;
+$headingTextTransform: none;
+$selectionBackgroundColor: #352e13;
 
-// headings
-$presentation-heading-font: "News Cycle", sans-serif !default;
+.reveal.h2.author {
+    font-weight: normal;
+    line-height: 90px;
+}
