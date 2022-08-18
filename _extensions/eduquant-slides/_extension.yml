@@ -9,6 +9,8 @@ contributes:
        transition-speed: fast
        logo: logo_transparent.svg
        footer:
+       revealjs-plugins:
+        - seminar
        title-slide-attributes:
           data-background-color: lightblue
           data-background-position: bottom 2.5em center

@@ -9,6 +9,16 @@ toc: true  # ToC slide generated from title slides
 ---
 
 
+## Open seminar
+
+A password is required to host a seminar.
+
+<div><input type="password" id="password" style="font-size:70%;" value=""></div>
+
+
+### Host seminar
+<a id="host" href="#"> {{< fa thumbs-up >}} </a>
+
 ## Quote/article discussion example
 
 :::: {.columns}
