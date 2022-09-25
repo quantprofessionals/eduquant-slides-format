@@ -4,13 +4,14 @@ version: 0.0.1
 contributes:
   formats:
     revealjs:
-       theme: [default, theme.scss] 
+       theme: [default, theme.scss]
        transition: slide
        transition-speed: fast
        logo: logo_transparent.svg
+       multiplex: true
+       resources: "*-speaker.html"
        footer:
-       revealjs-plugins:
-        - seminar
+       mermaid-format: svg 
        title-slide-attributes:
           data-background-color: lightblue
           data-background-position: bottom 2.5em center

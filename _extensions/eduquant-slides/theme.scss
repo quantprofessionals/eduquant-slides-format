@@ -9,14 +9,14 @@
 $backgroundColor: rgb(249, 249, 236);
 // $mainColor: rgb(12, 33, 49) !default;
 $mainFont: 'Raleway', sans-serif;
-$linkColor: #4b5be8;
+$linkColor: #3440ab;
 $linkColorHover: lighten( $linkColor, 20% );
 $headingFont: 'Hind Madurai', sans-serif;
-$headingColor: rgb(9, 33, 52);
+$headingColor: rgb(7, 37, 62);
 $headingTextShadow: none;
 $headingLetterSpacing: -0.0em;
 $headingTextTransform: none;
-$selectionBackgroundColor: #352e13;
+$selectionBackgroundColor: darken( $backgroundColor, 40% );
 
 .reveal.h2.author {
     font-weight: normal;
